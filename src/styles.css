@@ -1,0 +1,6 @@
+@import "tailwindcss";
+:root {
+    color: var(--fg);
+    background-color: var(--bg);
+    font-family: Anonymous Pro;
+}
