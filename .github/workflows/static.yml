@@ -34,10 +34,10 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.9.1
       - name: NPM install
-        working-directory: .
+        working-directory: /
         run: npm install
       - name: Build
-        working-directory: .
+        working-directory: /
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
